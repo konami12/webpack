@@ -1,0 +1,20 @@
+{
+  "name": "webpack-taller",
+  "version": "1.0.0",
+  "description": "aprendindo web pack",
+  "main": "index.js",
+  "repository": "git@konami12:konami12/webpack.git",
+  "author": "<jorge.mendez.ortega@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack index.js bundle.js",
+    "build:local": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js",
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "0.28.8",
+    "style-loader": "0.19.1",
+    "webpack": "3.10.0"
+  }
+}
