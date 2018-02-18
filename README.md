@@ -40,3 +40,6 @@ js. jsx .css. less, scss, stylus etc.
 
 - **plugins : ** Nos ayudaran a extender las caracterisitcas de **webpack**, como comprimir archivos
 usando uglify o dividir nuestros modulos en chunks mas pequenos para que nuestra aplicacion cargue mas rapido. 
+
+
+## Dentro de las carpetas del repo existen ejemplos, el nombre de la carpeta es referente a lo que se desea realizar :)
