@@ -42,9 +42,9 @@ const CONFIG_WEBPACK = {
                     },
                 }
             },
-            //Soporte para imagenes
+            //Soporte para fuentes
             {
-                test: /\.(jpg|png|gif)$/,
+                test: /\.(jpg|png|gif|woff|eot|ttf|svg)$/,
                 use: {
                     loader: "url-loader",
                     options: {

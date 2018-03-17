@@ -34,6 +34,7 @@ const CONFIG_WEBPACK = {
                 test: /\.js$/,
                 use: {
                     loader: "babel-loader",
+                    // configuracion especial para un loader
                     options: {
                         presets: [
                             "env",

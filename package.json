@@ -15,7 +15,8 @@
     "build:multi:entry": "webpack --config ./multi-entry-points/webpack.config.js",
     "build:dev": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
     "build:babel": "webpack --config ./babel-loaders/webpack.config.js",
-    "build:img": "webpack --config ./image-loader/webpack.config.js"
+    "build:img": "webpack --config ./image-loader/webpack.config.js",
+    "build:fonts": "webpack --config ./font-loader/webpack.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
