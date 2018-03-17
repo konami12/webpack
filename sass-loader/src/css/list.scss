@@ -1,0 +1,10 @@
+$color: #C0C0C0;
+$color2: red;
+$padding: 10px;
+.list {
+    background-color: $color;
+    padding:  $padding;
+    li {
+        padding: $padding;
+    }
+}
