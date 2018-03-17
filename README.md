@@ -29,17 +29,16 @@ multiples llamadas de archivos solo tendremos que realizar una.
 Al tener claro los conceptos anteriores podemos decir lo siguiente **webpack** es la combinacion
 de ambas tecnicas en una sola herramienta, es importante enteder los siguientes puntos 
 
-- **entry points : ** Modulo principal, de donde se parte a importar los demas modulos. este es el 
+- **entry points** : Modulo principal, de donde se parte a importar los demas modulos. este es el 
 archivo que leera **weback** para generar nuestro bundle.
 
-- **outputs : ** Lugar donde terminara nuestro archivo resultante ya que podremos tener nuestro bundle
+- **outputs** : Lugar donde terminara nuestro archivo resultante ya que podremos tener nuestro bundle
 asi como los archivos en los que trabajamos dia a dia.
 
-- **loadres : ** nos permitira cargar todo tipo de archivos asi como imagnees, fuentes y hasta dialectos
+- **loadres** : nos permitira cargar todo tipo de archivos asi como imagnees, fuentes y hasta dialectos
 js. jsx .css. less, scss, stylus etc.
 
-- **plugins : ** Nos ayudaran a extender las caracterisitcas de **webpack**, como comprimir archivos
-usando uglify o dividir nuestros modulos en chunks mas pequenos para que nuestra aplicacion cargue mas rapido. 
+- **plugins** :  Nos ayudaran a extender las caracterisitcas de **webpack**, como comprimir archivos.usando uglify o dividir nuestros modulos en chunks mas pequenos para que nuestra aplicacion cargue mas rapido. 
 
 
 ## Dentro de las carpetas del repo existen ejemplos, el nombre de la carpeta es referente a lo que se desea realizar :)
