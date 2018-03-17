@@ -1,0 +1,13 @@
+@nice-blue: #5B83AD;
+.list {
+    background-color: @nice-blue;
+    li {
+        padding: 20px;
+        span, a {
+            display: block;
+        }
+        &::nth-child(2n) {
+            background-color: yellow;
+        }
+    }
+}

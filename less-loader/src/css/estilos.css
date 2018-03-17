@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'fira_coderegular';
+    src: url('./fonts/FiraCode-Regular-webfont.eot');
+    src: url('./fonts/FiraCode-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/FiraCode-Regular-webfont.woff') format('woff'),
+         url('./fonts/FiraCode-Regular-webfont.ttf') format('truetype'),
+         url('./fonts/FiraCode-Regular-webfont.svg#fira_coderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/5k-ps4-wallpaper.jpg");
+    background-size: 100%;
+    display: flex;
+    font-size: 40px;
+    font-family: "fira_coderegular";
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+ul li label, 
+ul li a{
+    display:block;
+}
