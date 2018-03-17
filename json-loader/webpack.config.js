@@ -52,6 +52,10 @@ const CONFIG_WEBPACK = {
                     }
                 }
             },
+            {
+                test: /\.json$/,
+                use: "json-loader",
+            }
         ],
     },
     //cargando los plugin

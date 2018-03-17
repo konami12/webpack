@@ -1,4 +1,7 @@
 import "../css/estilos.css";
 import Saludo from "./saludo";
+import Json from "../json/data.json";
 Saludo.alerta("Jorge");
-console.log("soy un archivo externo");
+Json.agenda.forEach((contacto) => {
+    Saludo.alerta(`${contacto.name} => edad: ${contacto.edad}\n`);
+});

@@ -17,7 +17,8 @@
     "build:babel": "webpack --config ./babel-loaders/webpack.config.js",
     "build:img": "webpack --config ./image-loader/webpack.config.js",
     "build:fonts": "webpack --config ./font-loader/webpack.config.js",
-    "build:videos": "webpack --config ./video-loader/webpack.config.js"
+    "build:videos": "webpack --config ./video-loader/webpack.config.js",
+    "build:json": "webpack --config ./json-loader/webpack.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -32,5 +33,9 @@
     "url-loader": "^0.6.2",
     "webpack": "3.10.0",
     "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
