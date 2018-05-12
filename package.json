@@ -25,7 +25,9 @@
     "build:less": "webpack --config ./less-loader/webpack.config.js",
     "build:postcss": "webpack --config ./postcss-loader/webpack.config.js",
     "build:duplicado": "webpack --config ./codigo-duplicado/webpack.config.js",
-    "build:vendor": "webpack --config ./vendor/webpack.config.js"
+    "build:vendor": "webpack --config ./vendor/webpack.config.js",
+    "build:dll": "webpack --config ./dll/webpack.dll.config.js",
+    "build:dll:src": "webpack --config ./dll/webpack.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
