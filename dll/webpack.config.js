@@ -78,7 +78,7 @@ const CONFIG_WEBPACK = {
         new ExtractTextPlugin("styles.css"), // de esta manera podemos personazlizar el nombre del archivo de salida
         new ExtractTextPlugin("[name].css"), // de esta manera toma el nombre el entry point
         new webpack.DllReferencePlugin({
-            manifest: require("./dist/modules-manifest.json"),
+            manifest: require("./dist/modules-manifest.json"), // se importa el manifiesto
         }),
     ],
 };

@@ -17,8 +17,8 @@ const CONFIG_WEBPACK = {
         // ruta donde quedara el archivo de salida
         path: PATH.resolve(__dirname, "dist"),
         // nombre del archivo de salida
-        filename: "bundle-[name].js",
-        library: "[name]",
+        filename: "[name].js",
+        library: "tvsa", // nombre de la variable global de la libreria
     },
     // carga de modulos
     /* los modulos no son necesrtios ya que la mayoria de paquetes tiene su codigo transpilado
@@ -27,7 +27,7 @@ const CONFIG_WEBPACK = {
     // cargando los plugin
     plugins: [
         new webpack.DllPlugin({
-            name: "[name]",
+            name: "tvsa", // Nombre a exportar para generar referencias
             path: PATH.join(__dirname, "dist/[name]-manifest.json"), // Slida de mi dll
         }),
     ],
